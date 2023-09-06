@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task9</title>
+    <style>
+        .text {
+            padding-left: 70px;
+            display: inline-block;
+        }
+
+        body {
+            margin-left: 0px;
+        }
+
+        .shape {
+            float: left;
+        }
+
+        .box {
+            margin-left: 0px;
+            margin-bottom: 8px;
+            height: 65px;
+            width: 65px;
+            border-radius: 10px;
+            display: block;
+            cursor: pointer;
+            background-color: transparent;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .box:hover {
+            background-color: yellow; /* Change this color to your desired highlight color */
+            transform: scale(1.2); /* Increase the size on hover */
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: rgb(60, 151, 236);
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .black {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>Hoverable Sidenav Buttons</h1>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+    <div class="shape">
+        <div class="box green"></div>
+        <div class="box blue"></div>
+        <div class="box red"></div>
+        <div class="box black"></div>
+    </div>
+</body>
+</html>

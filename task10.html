@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(184, 169, 6);
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  color: darkred;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+hr{
+    border: none;
+  border-top: 1px dotted #f00;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+}
+#col1  div{
+    background-color: #fff;
+    border-right: 20px;
+    border-color: black;
+}
+#col1{
+    width: 30%;
+}
+.black{
+    width: 20px;
+    background-color: black;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column" id="col1" >
+    <div><div><h2><a href="home">Home page</a></h2></div><p class="black"></p></div>
+    
+    <div><h2><a href="home">Musings</a></h2></div>
+    <div><h2><a href="home">My town</a></h2></div>
+    <div><h2><a href="home">Links</a></h2></div>
+    
+  </div>
+  <div class="column" >
+    <h1>My first styled page</h1>
+    <p>Welcome to my styled page!</p>
+    <p></p>
+    <p>It lacks images,but at least it has style. And it has links, even if they don't go anywhere...</p>
+    <p></p>
+    <p>There should be more here, but I don't know what yet.</p>
+    <hr>
+    <h4>Made 4 September 2023</h4>
+    <h4>by Anish Jain</h4>
+  </div>
+</div>
+
+</body>
+</html>
